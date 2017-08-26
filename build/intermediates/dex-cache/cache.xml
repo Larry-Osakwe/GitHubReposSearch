@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\3d1d33390cdb4f62ff4f1af0d13da9c581048369\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c24f8bf81e0470b506eb9134260774eb7e834d0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\7f5679e6cae27e08c388a044a36e239128206c52\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed6d0783689dab61c90c1b898a76827f60672dca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\8f0b2554f0aff948e3fcefadcc864b45a0df6c3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a6afc2b4961273b85ffa28eb6f52d7a6a5da510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\38c92c21926a895edd3bbbc76339b509a7b8aabb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4021cd4aa4fdeb1ea01e8d7566b4da99ca3d517\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_0a9c634daa786c1d8db081b123aa953a4c288747\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.8.0_c393ce7793c1ff3f609b828cce6985d4de9f8816\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\cb7a72760f7f44568998d3d5f091c8ddcb2468fa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d34be74e0f775e3590f77299914210a6f822b7fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_4a992f59865e68e956731d94bf646898379a0d23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\3f266f7674ef4ed86c95d1645f709a5a43852f4e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd2d3a2f2a0b3d80a5db6ca7e2a9427f81993048\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\97e2409d5f45bdd6d16f36f24662d94dc0d7d7d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e06aca4e2bd9a5d04b75da3d4621233061cb31b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\8ec6a7707dce351906a144fae371331ca82851f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1ac4fef8de34041fdf12e086fa67066b3164fe00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\79b46351bac13ff010bdee4e76f4a84d43975c4a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c91120e5bc8a17b2ed28ff982a8c511c9ec99c86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="086415abb908afac6d2e0cf7564ec496927f0fce">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d92e8eb3752f5d1f595e3c17a0190640bd1b0562\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.android\build-cache\b60c25d5c5a475ca3ac66a1725afd0f3e6fe02ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f1c9c772ab3e981323f7eaf8a48cdedb761ac78c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_586470a9a4cba07d8a01ab5e954cab11305049da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.13.0_9b71a2b448f0f58cc4c8ec1ba674534502b5c123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e8fa62df8fe4cd786992830639a9cab72b57c4d8\classes.dex" />
+    </item>
+
+</items>
