@@ -1,4 +1,4 @@
-#Sat Aug 26 14:09:49 PDT 2017
+#Sat Aug 26 15:34:41 PDT 2017
 base.0=C\:\\Users\\Larry Osakwe\\AndroidStudioProjects\\take-home-test-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
 renamed.0=classes.dex
 file.0=C\:\\Users\\Larry Osakwe\\AndroidStudioProjects\\take-home-test-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

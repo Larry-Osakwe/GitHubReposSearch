@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
 
 public class RepoAdapter extends ArrayAdapter<Repo> {
 
+    private Repo currentRepo;
 
     public RepoAdapter(Context context, List<Repo> repos) {
         super(context, 0, repos);
@@ -22,8 +24,21 @@ public class RepoAdapter extends ArrayAdapter<Repo> {
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
         if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.)
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item,
+                    parent, false);
         }
+
+        currentRepo = getItem(position);
+
+        TextView repoName = listItemView.findViewById(R.id.repo_name);
+        repoName.setText(currentRepo.getRepoName());
+
+
+        return listItemView;
+
+
+
+
     }
 
 
