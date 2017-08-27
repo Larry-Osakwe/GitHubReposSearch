@@ -29,6 +29,7 @@ public class QueryUtils {
 
     }
 
+
     public static ArrayList<Repo> extractRepos(String repoJSON) {
         if (TextUtils.isEmpty(repoJSON)) {
             return null;
@@ -50,7 +51,10 @@ public class QueryUtils {
                 String name = repo.getString("name");
                 int count = repo.getInt("forks_count");
                 String language = repo.getString("language");
-                repositories.add(new Repo(name, count, 0, language));
+                String date = repo.getString("updated_at");
+
+
+                repositories.add(new Repo(name, count, date, language));
             }
 
 
@@ -124,7 +128,6 @@ public class QueryUtils {
         }
         return output.toString();
     }
-
 
 
 }

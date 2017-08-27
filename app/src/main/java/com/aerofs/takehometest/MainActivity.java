@@ -7,7 +7,9 @@ import android.content.Loader;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -70,6 +72,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             forceLoad();
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.N)
         @Override
         public List<Repo> loadInBackground() {
             if (mUrl == null) {
@@ -104,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         mEmptyStateTextView.setText("No repositories found");
         mAdapter.clear();
 
-        if(repos != null && !repos.isEmpty()) {
+        if (repos != null && !repos.isEmpty()) {
             mAdapter.addAll(repos);
         }
 

@@ -43,11 +43,10 @@ public class RepoAdapter extends ArrayAdapter<Repo> {
             language.setText(currentRepo.getLanguage());
         }
 
-
+        TextView date = listItemView.findViewById(R.id.date_last_updated);
+        date.setText(currentRepo.getLastUpdated());
 
         return listItemView;
-
-
 
 
     }
