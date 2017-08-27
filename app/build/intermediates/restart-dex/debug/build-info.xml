@@ -6,37 +6,34 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1503786879985"
+    timestamp="1503794717884"
     token="-5819972790535867418"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="373" />
+        duration="697" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="72" />
+        duration="39" />
     <task
         name="verifier"
-        duration="25" />
+        duration="5" />
 
-    <artifact
-        location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -59,25 +56,25 @@
     <artifact
         location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1503786879985"
+        timestamp="1503794717884"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -100,6 +97,9 @@
         <artifact
             location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
