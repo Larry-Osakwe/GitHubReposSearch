@@ -45,8 +45,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             @Override
             public void onClick(View view) {
                 if (isNetworkOnline()) {
-                    //LoaderManager loaderManager = getLoaderManager();
-                    //loaderManager.initLoader(REPO_LOADER_ID, null, MainActivity.this);
                     getLoaderManager().restartLoader(REPO_LOADER_ID, null, MainActivity.this);
                 } else {
                     mEmptyStateTextView.setText("No internet connection.");
@@ -55,9 +53,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 }
             }
         });
-
-
-
 
     }
 
@@ -121,7 +116,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     public void onLoaderReset(Loader<List<Repo>> loader) {
         mAdapter.clear();
     }
-
 
     public boolean isNetworkOnline() {
         boolean status = false;

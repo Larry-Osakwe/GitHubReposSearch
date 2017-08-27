@@ -9,11 +9,13 @@ public class Repo {
     private String repoName;
     private int forkCount;
     private int lastUpdated;
-
-    public Repo(String repoName, int forkCount, int lastUpdated) {
+    private String language;
+    
+    public Repo(String repoName, int forkCount, int lastUpdated, String language) {
         this.repoName = repoName;
         this.forkCount = forkCount;
         this.lastUpdated = lastUpdated;
+        this.language = language;
     }
 
     public String getRepoName() {
@@ -26,6 +28,10 @@ public class Repo {
 
     public int getLastUpdated() {
         return lastUpdated;
+    }
+
+    public String getLanguage() {
+        return language;
     }
 
 

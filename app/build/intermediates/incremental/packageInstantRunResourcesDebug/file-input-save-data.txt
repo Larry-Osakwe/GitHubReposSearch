@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 26 19:00:40 PDT 2017
+#Sat Aug 26 19:56:08 PDT 2017
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Larry Osakwe\\AndroidStudioProjects\\take-home-test-android\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_btn_checkable.xml
 118.set=ANDROID_RESOURCE

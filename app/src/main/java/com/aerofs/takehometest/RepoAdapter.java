@@ -33,6 +33,17 @@ public class RepoAdapter extends ArrayAdapter<Repo> {
         TextView repoName = listItemView.findViewById(R.id.repo_name);
         repoName.setText(currentRepo.getRepoName());
 
+        TextView forkCount = listItemView.findViewById(R.id.fork_count);
+        forkCount.setText(currentRepo.getForkCount() + "");
+
+        TextView language = listItemView.findViewById(R.id.language);
+        if (currentRepo.getLanguage() == null || currentRepo.getLanguage().equals("null")) {
+            language.setText("");
+        } else {
+            language.setText(currentRepo.getLanguage());
+        }
+
+
 
         return listItemView;
 

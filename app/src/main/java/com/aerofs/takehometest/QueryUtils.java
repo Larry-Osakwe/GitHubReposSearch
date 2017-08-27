@@ -48,8 +48,9 @@ public class QueryUtils {
             for (int i = 0; i < baseJsonResponse.length(); i++) {
                 JSONObject repo = baseJsonResponse.getJSONObject(i);
                 String name = repo.getString("name");
-
-                repositories.add(new Repo(name, 0, 0));
+                int count = repo.getInt("forks_count");
+                String language = repo.getString("language");
+                repositories.add(new Repo(name, count, 0, language));
             }
 
 
