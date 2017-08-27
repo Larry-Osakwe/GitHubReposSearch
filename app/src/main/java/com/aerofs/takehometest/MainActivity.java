@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     public static final String LOG_TAG = MainActivity.class.getName();
     private static final int REPO_LOADER_ID = 1;
-    private static final String REPO_JSON_RESPONSE = "https://api.github.com/users/aerofs/repos";
+    private static final String REPO_JSON_RESPONSE = "https://api.github.com/users";
     private RepoAdapter mAdapter;
     private TextView mEmptyStateTextView;
 
@@ -43,18 +44,19 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //getLoaderManager().restartLoader(REPO_LOADER_ID, null, callbacks);
+                if (isNetworkOnline()) {
+                    //LoaderManager loaderManager = getLoaderManager();
+                    //loaderManager.initLoader(REPO_LOADER_ID, null, MainActivity.this);
+                    getLoaderManager().restartLoader(REPO_LOADER_ID, null, MainActivity.this);
+                } else {
+                    mEmptyStateTextView.setText("No internet connection.");
+                    View loadSpinner = findViewById(R.id.loading_spinner);
+                    loadSpinner.setVisibility(View.GONE);
+                }
             }
         });
 
-        if (isNetworkOnline()) {
-            LoaderManager loaderManager = getLoaderManager();
-            loaderManager.initLoader(REPO_LOADER_ID, null, this);
-        } else {
-            mEmptyStateTextView.setText("No internet connection.");
-            View loadSpinner = findViewById(R.id.loading_spinner);
-            loadSpinner.setVisibility(View.GONE);
-        }
+
 
 
     }
@@ -84,12 +86,22 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     }
 
 
+    private String getUserInput() {
+        EditText userInput = (EditText) findViewById(R.id.editText);
+        return userInput.getText().toString();
+    }
+
     @Override
     public Loader<List<Repo>> onCreateLoader(int i, Bundle bundle) {
 
         Uri baseUri = Uri.parse(REPO_JSON_RESPONSE);
+        Uri.Builder uriBuilder = baseUri.buildUpon();
 
-        return new RepoLoader(this, baseUri.toString());
+        uriBuilder.appendPath(getUserInput());
+        uriBuilder.appendPath("repos");
+
+
+        return new RepoLoader(this, uriBuilder.toString());
     }
 
     @Override

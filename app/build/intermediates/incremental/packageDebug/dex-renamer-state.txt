@@ -1,4 +1,4 @@
-#Sat Aug 26 18:08:46 PDT 2017
+#Sat Aug 26 19:00:42 PDT 2017
 base.0=C\:\\Users\\Larry Osakwe\\AndroidStudioProjects\\take-home-test-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e8fa62df8fe4cd786992830639a9cab72b57c4d8
 renamed.1=classes2.dex
 renamed.0=classes.dex
