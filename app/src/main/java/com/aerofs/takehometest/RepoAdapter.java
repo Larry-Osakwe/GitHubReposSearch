@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -43,8 +46,21 @@ public class RepoAdapter extends ArrayAdapter<Repo> {
             language.setText(currentRepo.getLanguage());
         }
 
-        TextView date = listItemView.findViewById(R.id.date_last_updated);
-        date.setText(currentRepo.getLastUpdated());
+
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+        SimpleDateFormat newFormat = new SimpleDateFormat("MMM d, yyyy");
+        String oldDate = currentRepo.getLastUpdated();
+        Date date = null;
+        try {
+            date = formatter.parse(oldDate.substring(0, 20));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+
+
+        TextView dateUpdated = listItemView.findViewById(R.id.date_last_updated);
+        dateUpdated.setText(newFormat.format(date));
 
         return listItemView;
 
