@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b82b809aa7850ebce54911d2c04cc85f2385cbd5">
+        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d92e8eb3752f5d1f595e3c17a0190640bd1b0562\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Larry Osakwe\.android\build-cache\79b46351bac13ff010bdee4e76f4a84d43975c4a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="2e92aa0163544a804a0b34f169ca61801770839a">
         <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c91120e5bc8a17b2ed28ff982a8c511c9ec99c86\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="086415abb908afac6d2e0cf7564ec496927f0fce">
-        <dex dex="C:\Users\Larry Osakwe\AndroidStudioProjects\take-home-test-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d92e8eb3752f5d1f595e3c17a0190640bd1b0562\classes.dex" />
     </item>
     <item
         is-multidex="true"
