@@ -15,7 +15,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -50,8 +49,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                     getLoaderManager().restartLoader(REPO_LOADER_ID, null, MainActivity.this);
                 } else {
                     mEmptyStateTextView.setText("No internet connection.");
-                    View loadSpinner = findViewById(R.id.loading_spinner);
-                    loadSpinner.setVisibility(View.GONE);
                 }
             }
         });
@@ -111,8 +108,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             mAdapter.addAll(repos);
         }
 
-        ProgressBar loadSpinner = (ProgressBar) findViewById(R.id.loading_spinner);
-        loadSpinner.setVisibility(View.INVISIBLE);
     }
 
     @Override

@@ -16,6 +16,10 @@ import java.util.List;
  * Created by Larry Osakwe on 8/26/2017.
  */
 
+/**
+ * A {@link RepoAdapter} creates a list item layout for each repository
+ */
+
 public class RepoAdapter extends ArrayAdapter<Repo> {
 
     private Repo currentRepo;

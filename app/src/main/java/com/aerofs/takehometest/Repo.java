@@ -4,6 +4,9 @@ package com.aerofs.takehometest;
  * Created by Larry Osakwe on 8/26/2017.
  */
 
+/**
+ * A {@link Repo} object that stores information about a single repository
+ */
 public class Repo {
 
     private String repoName;

@@ -23,6 +23,10 @@ import static com.aerofs.takehometest.MainActivity.LOG_TAG;
  * Created by Larry Osakwe on 8/26/2017.
  */
 
+/**
+ * Helper methods used to request data from GitHub
+ */
+
 public class QueryUtils {
 
     private QueryUtils() {
